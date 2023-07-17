@@ -160,6 +160,11 @@ margin-left: 20px;
     height: 60px;
 }
 
+#submission {
+    display: flex;
+    justify-content: center;
+}
+
 #logo {
     width: 100px;
     height: 100px;
