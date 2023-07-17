@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fakesign</title>
+    <link rel="stylesheet" href="style.css">
+    <script src ='script.js' defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class = 'sidebar-container'>
+            <div id="sidebar-wrapper">
+                <div id="logoStore">
+                    <div id = 'logos'>
+                        <img src="images/odin-lined.png" id = 'logo' alt="odin_logo">
+                        <div>
+                            <p>Sign Up Form</p>
+                        </div>
+                    </div>
+                </div>
+                <div id = 'source'>
+                    <p>PHOTO BY HALIE WEST ON UNSPLASH</p>
+                </div>
+                <img src="images/halie-west-UWni0vqQotc-unsplash.jpg" alt="night_sky">
+                
+            </div>
+        </div> 
+        <div class="main">
+            <form action="">
+                <div>
+                    <h1>This is not a real online service! You know you need something like this in
+                        your life to help you realize your deepest dreams.
+                    </h1>
+                    <h2>
+                        Make sure to choose us for the <i>best</i> fake service!
+                    </h2>
+                    <h3>
+                        Are you ready for <i>this</i>?
+                    </h3>
+                </div>
+                <div class="format">
+                    <div class="formation">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id = 'first_name' class = 'box' placeholder="Bob" required>
+                    </div>
+                    <div class="formation">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id = 'last_name' class = 'box' placeholder="Hope" required>
+                    </div>
+                </div>  
+                <div class="format">
+                    <div class="formation">
+                        <label for="user_email">EMAIL</label>
+                        <input type="email" id = 'user_email' class = 'box' name="email" placeholder="email@email.com" required>
+                    </div>
+                    <div class="formation">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="tel" id = 'tel' class = 'box' name ='telephone' placeholder="9999999999" required>
+                    </div>
+                </div>
+                <div class="format">
+                    <div class="formation">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id = 'password' class = 'box' name = 'password' minlength='8' maxlength='30' placeholder="Password" required>
+                    </div>
+                    <div class="formation">
+                        <label for="password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_password" class = 'box' minlength = '8' maxlength = '30' name="confirm_password" placeholder="Confirm Password" required>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit"  id = 'submit_button' class = 'form-submit'>Create Account</button>
+                </div>
+                <div id="login">
+                    <p>Already have an account?
+                    <a href="#top" id = 'log' title="Login destination">LOG IN</a></p> 
+                </div>
+            </form>
+        </div>    
+    </div>
+</body>
+</html>
